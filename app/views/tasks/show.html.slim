@@ -21,4 +21,4 @@ table.table.table-hover
       td= @task.updated_at
 
 = link_to 'Edit', edit_task_path, class: 'btn btn-primary mr-3'
-/= link_to 'Destroy', @task, method: :delete, data: { confirm: "タスク「#{@task.name}」を削除します。よろしいですか？" }, class: 'btn btn-danger'
+= link_to 'Destroy', @task, method: :delete, data: { confirm: "タスク「#{@task.name}」を削除します。よろしいですか？" }, class: 'btn btn-danger'
